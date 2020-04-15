@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+ body {
+     border-top: 40px solid #af2024;
+     background-image: url(../images/backg_img_02.jpg);
+     background-repeat:no-repeat;
+     background-color:#3f0002;
+     background-size: 100% auto;
+ }
+ section {
+     max-width:960px;
+     margin:auto;
+     margin-top:31px;
+ }
+.block {
+    padding-top:33px;
+    max-width:710px;
+    margin:auto;
+    position:relative;
+    z-index:1;
+}
+.item_1 {
+    background-color:#98161b;
+}
+.item_1 h2 {
+    padding-top:28px;
+    padding-bottom:28px;
+    padding-left:18px;
+    color:white;
+    font-size:20px;
+    font-family: 'Arvo', serif;
+}
+.container {
+    background-color:white;
+}
+.item_2 {
+    max-width:569px;
+    padding-top:62px;
+    margin:auto;
+    margin-bottom:250px;
+}
+.player {
+    width:567px;
+    height:346px;
+    background-color:#e7e7e7;
+    margin:auto;
+    position:relative;
+}
+.triangle{
+    border-top: 30px solid transparent;
+    border-left: 60px solid #98161b;
+    border-bottom: 30px solid transparent;
+    position:absolute;
+    top:125px;
+    left:265px;
+}
+.description {
+    padding-top:29px;
+    padding-bottom:70px;
+}
+.description h3 {
+    color:#98161b;
+    font-size:13px;
+    font-family: 'Arvo', serif;
+}
+.description h3 span {
+    color:#7d7d7d;
+    font-size:13px;
+    font-family: 'Arvo', serif;
+    font-weight:400;
+}
+.description h3:after {
+    content:"";
+    display:block;
+    height:2px;
+    width:45px;
+    border-bottom:dashed;
+    padding-top:16px;
+}
+.description p {
+    padding-top:40px;
+    color:#98161b;
+    font-size:12px;
+    font-family: 'Arvo', serif;
+    font-weight:400;
+}
+.social_networks ul {
+    list-style:none;
+}
+.facebook{
+    width:50px;
+    background-color:#850409;
+    text-align:center;
+    font-size:25px;
+    padding:9px 18px 7px 17px ;
+}
+.facebook i {
+    color:white;
+}
+.twitter {
+    background-color:#98161b;
+    width:50px;
+    text-align:center;
+    font-size:25px;
+    padding:12px 8px 11px 9px ;
+}
+.twitter i {
+    color:white;
+}
+.social_networks {
+    position: fixed;
+    right:0;
+    top:222px;
+    z-index:5;
+}
+footer {
+    background-color:black;
+    height:450px;
+    position:relative;
+    z-index:0;
+    margin-top:-310px;
+}
